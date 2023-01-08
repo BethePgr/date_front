@@ -3,6 +3,11 @@
 .wrapper {
     width: 85%;
     margin: 0 auto;
+    
+}
+
+.wrapperMyPage{
+    min-height:600px;
 }
 
 .myPosts, .myLikes{

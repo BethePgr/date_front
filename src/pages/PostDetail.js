@@ -180,6 +180,7 @@ const PostDetail = () => {
 
     },[]);
 
+    const img = postImg ? <img src={postImg } /> : <></>;
     
     
 
@@ -200,7 +201,7 @@ const PostDetail = () => {
                 <div className="date">{userId} | {postDate}</div>
                 <figure className="postImage">
                     <div className="placeImg">
-                        <img src={postImg} />
+                        {img}
                     </div>
                 </figure>
                 <section className="content">
